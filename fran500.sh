@@ -23,6 +23,6 @@ for y in $years  #Outside loop to account for no-context-root first page
 
 paste -d";" final*.txt > Franchise500-Ranking.csv   #Consolidate all data into CSV
 
-rm source*.txt 200*.txt final*.txt  #Cleanup unnecessary files
+rm source*.txt 20*.txt final*.txt  #Cleanup unnecessary files
 
 ## The End!
